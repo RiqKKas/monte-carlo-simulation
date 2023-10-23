@@ -1,4 +1,4 @@
-# Simulação de Monte Carlo para o Cálculo de π
+<h1 align="center">Simulação de Monte Carlo para o Cálculo de π</h1>
 
 <h2 id="about">💡&nbsp; Sobre o projeto</h2>
 
