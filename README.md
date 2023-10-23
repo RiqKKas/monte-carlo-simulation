@@ -2,7 +2,7 @@
 
 <h2 id="about">💡&nbsp; Sobre o projeto</h2>
 
-Este código utiliza simulação de Monte Carlo para estimar o valor de π (pi). O processo é distribuído em várias CPUs disponíveis com a ajuda do Framework Ray.
+Este código utiliza simulação de Monte Carlo para estimar o valor de π (pi). O processo é distribuído em várias CPUs disponíveis com a ajuda do <a hrref="https://docs.ray.io/en/latest/ray-overview/installation.html"><b>Framework Ray<b></a>.
 
 - Gera um grande número de pontos aleatórios no quadrado unitário.
 - Verifica quantos desses pontos caem dentro de um círculo unitário.
