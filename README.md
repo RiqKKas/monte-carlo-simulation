@@ -23,6 +23,25 @@ Este é um exemplo de computação paralela usando o Framework Ray para acelerar
 pip install -U "ray[default]"
 ```
 
+<b> Caso a variável de ambiente ray não esteja disponível no ambiente use: <b>
+
+```bash
+pip show ray 
+
+  Name: ray
+  Version: 2.7.1
+  Summary: Ray provides a simple, universal API for building distributed applications.
+  Home-page: https://github.com/ray-project/ray
+  Author: Ray Team
+  Author-email: ray-dev@googlegroups.com
+  License: Apache 2.0
+  Location: /caminho/para/o/arquivo/ray
+  Requires: aiosignal, click, filelock, frozenlist, jsonschema, msgpack, numpy, packaging, protobuf, pyyaml, requests
+  Required-by:
+
+export PATH="$PATH:/caminho/para/o/arquivo/ray"
+```
+
 <b> Inicie o nó mestre no host principal, que será o ponto de conexão para todos os outros hosts: <b>
 
 ```bash
