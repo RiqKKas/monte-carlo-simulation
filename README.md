@@ -1,5 +1,20 @@
 # Simulação de Monte Carlo para o Cálculo de π
 
+<h2 id="about">💡&nbsp; Sobre o projeto</h2>
+
+Este código utiliza simulação de Monte Carlo para estimar o valor de π (pi). O processo é distribuído em várias CPUs disponíveis com a ajuda do Framework Ray.
+
+- Gera um grande número de pontos aleatórios no quadrado unitário.
+- Verifica quantos desses pontos caem dentro de um círculo unitário.
+- Calcula a razão entre os pontos dentro do círculo e o total de pontos gerados.
+- Multiplica essa razão por 4 para obter uma estimativa de π.
+- O cálculo é paralelizado para aproveitar as CPUs disponíveis.
+- A estimativa final de π é impressa junto com o tempo de execução e o número de CPUs utilizadas.
+
+Este é um exemplo de computação paralela usando o Framework Ray para acelerar o processo de estimativa de π.
+
+---
+
 <h2 id="installation">🚀&nbsp; Como executar </h2>
 
 <b> Instale o Framework Ray em todas as máquinas disponíves para o processamento: <b>
