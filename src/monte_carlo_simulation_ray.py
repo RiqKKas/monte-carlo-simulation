@@ -38,7 +38,7 @@ if __name__ == "__main__":
   pi_estimate = estimate_pi(num_samples, num_clusters)
   end_time = time.time()
 
-  print("=> Execução Distribuida")
+  print("\n=> Execução Distribuida")
   print(f"π Estimado: {pi_estimate}")
   print(f"π Real: {3.14159265358979323846}")
   print(f"Tempo Gasto: {end_time - start_time} segundos") 
