@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ray-container:
+    image: ubuntu:latest
+    command: /bin/bash -c "apt-get update && apt-get install -y python3.10 python3-pip && pip3 install ray[default]"
+    container_name: ray-container
+    mem_limit: 4g  # Alocar 4GB de RAM
+    cpus: 4  # Alocar 4 CPUs

@@ -1,1 +1,1 @@
-# distributed-fibonacci-sequence
+# Distributed Fibonacci Sequence
